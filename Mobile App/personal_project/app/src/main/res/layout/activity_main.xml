@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/x_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/circle_button3"
+        android:text="x"
+        app:layout_constraintEnd_toEndOf="@+id/search_layout"
+        app:layout_constraintTop_toTopOf="@+id/search_layout" />
+
+    <Button
+        android:id="@+id/x_button2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/circle_button3"
+        android:text="x"
+        app:layout_constraintEnd_toEndOf="@+id/layout_asdf"
+        app:layout_constraintTop_toTopOf="@+id/layout_asdf" />
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#2196F3"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/main_title"
+            android:text="Get Pictures"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="188.75dp"
+                    android:layout_height="110dp"
+
+                    android:layout_marginRight="7.5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/emblem_white" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="188.75dp"
+                    android:layout_height="110dp"
+
+                    android:layout_marginLeft="7.5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/emblem_white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="188.75dp"
+                    android:layout_height="110dp"
+                    android:layout_marginRight="7.5dp"
+
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/emblem_white" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="188.75dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="7.5dp"
+
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/emblem_white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="188.75dp"
+                    android:layout_height="110dp"
+                    android:layout_marginRight="7.5dp"
+
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/emblem_white" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="188.75dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="7.5dp"
+
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/emblem_white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="188.75dp"
+                    android:layout_height="110dp"
+                    android:layout_marginRight="7.5dp"
+
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/emblem_white" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="188.75dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="7.5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/emblem_white" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_background"
+        android:orientation="vertical"
+        android:id="@+id/login_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Username"
+
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/userid"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:hint=""
+
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Password"
+
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@id/userid" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+
+            android:text="Login"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="You don't have a account? "
+
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="30dp"
+            android:clickable="true"
+            android:text="SIGN UP "
+
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/search_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <EditText
+            android:id="@+id/search_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="tags" />
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Search" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_asdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_background"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/search_img_btn"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
