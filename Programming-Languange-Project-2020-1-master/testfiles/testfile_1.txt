@@ -1,0 +1,21 @@
+main(){
+    int a, b, c;
+    char d, e,f;
+
+    b = 4;
+    a = b + 14;
+    f = 3 ;
+    e = d * f +  4 * 5 ;
+    WHILE b > 5 {
+        int t;
+        b = b  + 1 ;
+    }
+    IF a + 1 > c  THEN {
+	    e=5;
+    }
+    ELSE {
+        int k;
+	    e=3;
+    }
+    RETURN a;
+}

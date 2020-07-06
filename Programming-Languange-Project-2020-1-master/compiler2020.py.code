@@ -1,0 +1,43 @@
+BEGIN main
+  LD    REG#1, 4
+  ST    REG#1, b
+  LD    REG#2, b
+  LD    REG#1, 14
+  ADD   REG#1, REG#2, REG#1
+  ST    REG#1, a
+  LD    REG#1, 3
+  ST    REG#1, f
+  LD    REG#2, d
+  LD    REG#1, f
+  MUL   REG#1, REG#2, REG#1
+  LD    REG#3, 4
+  LD    REG#2, 5
+  MUL   REG#2, REG#3, REG#2
+  ADD   REG#1, REG#1, REG#2
+  ST    REG#1, e
+  JUMP         L2
+L1
+  LD    REG#2, b
+  LD    REG#1, 1
+  ADD   REG#1, REG#2, REG#1
+  ST    REG#1, b
+L2
+  LD    REG#2, b
+  LD    REG#1, 5
+  LT    REG#1, REG#1, REG#2
+  JUMPT REG#1, L1
+  LD    REG#2, a
+  LD    REG#1, 1
+  ADD   REG#1, REG#2, REG#1
+  LT    REG#1, REG#2, REG#1
+  JUMPT REG#1, L3
+  LD    REG#1, 3
+  ST    REG#1, e
+  JUMP         L4
+L3
+  LD    REG#1, 5
+  ST    REG#1, e
+L4
+  LD    rax,   0
+  ADD   rax,   rax,   REG#1
+END main

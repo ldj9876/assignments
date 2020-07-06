@@ -1,0 +1,36 @@
+name : main
+{	type : function
+	scope : global }
+
+name : a
+{	type : int
+	scope : global -> main }
+
+name : b
+{	type : int
+	scope : global -> main }
+
+name : c
+{	type : int
+	scope : global -> main }
+
+name : d
+{	type : char
+	scope : global -> main }
+
+name : e
+{	type : char
+	scope : global -> main }
+
+name : f
+{	type : char
+	scope : global -> main }
+
+name : t
+{	type : int
+	scope : global -> main -> WHILE }
+
+name : k
+{	type : int
+	scope : global -> main -> ELSE }
+
