@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "836167200724",
+    "firebase_url": "https://appsil.firebaseio.com",
+    "project_id": "appsil",
+    "storage_bucket": "appsil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836167200724:android:9cfc45dea0c6708565f041",
+        "android_client_info": {
+          "package_name": "com.example.map_pa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836167200724-nm8noc1a07jaqh3tr358p1im64ln2u8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaYXMSFGdYp41iUuJRci3EwOC_tc3TzcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836167200724-nm8noc1a07jaqh3tr358p1im64ln2u8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836167200724:android:39a21b124378f7e465f041",
+        "android_client_info": {
+          "package_name": "edu.skku.map.week10_exercise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836167200724-nm8noc1a07jaqh3tr358p1im64ln2u8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaYXMSFGdYp41iUuJRci3EwOC_tc3TzcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836167200724-nm8noc1a07jaqh3tr358p1im64ln2u8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
